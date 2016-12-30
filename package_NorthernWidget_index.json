@@ -14,7 +14,7 @@
                "architecture":"avr",
                "version":"0.2.0",
                "category":"Contributed",
-               "url":"https://github.com/NorthernWidget/Arduino_Boards/raw/master/IDE_Board_Manager/NorthernWidgetAVR.tar.bz2",
+               "url":"https://github.com/NorthernWidget/Arduino_Boards/raw/master/NorthernWidgetAVR.tar.bz2",
                "archiveFileName":"NorthernWidgetAVR.tar.bz2",
                "architecture": "avr",
                "size": "21858",
