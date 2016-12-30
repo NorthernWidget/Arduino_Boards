@@ -36,7 +36,7 @@ Now, when you select the Boards list, you will see a collection of new boards fo
 
 ### Cleaning up the Boards Menu
 
-Each entry in the boards list is defined in [boards.txt](https://github.com/NorthernWidget/Arduino_Boards/blob/master/NorthernWidget/avr/boards.txt). If you want to de-clutter the menu, you can comment out a board by inserting a `#` at the beginning of each line.
+Each entry in the boards list is defined in [boards.txt](https://github.com/NorthernWidget/Arduino_Boards/blob/master/NorthernWidgetAVR/boards.txt). If you want to de-clutter the menu, you can comment out a board by inserting a `#` at the beginning of each line.
 
 ### Notes
 
