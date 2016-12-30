@@ -22,7 +22,7 @@ ALog_BottleLogger.bootloader.tool=avrdude
 ALog_BottleLogger.bootloader.low_fuses=0xFF
 ALog_BottleLogger.bootloader.high_fuses=0xDE
 ALog_BottleLogger.bootloader.extended_fuses=0x05
-ALog_BottleLogger.bootloader.file=bootloaders/optiboot/optiboot_atmega328.hex
+ALog_BottleLogger.bootloader.file=arduino:optiboot/optiboot_atmega328.hex
 
 ALog_BottleLogger.build.mcu=atmega328p
 ALog_BottleLogger.build.f_cpu=8000000L
