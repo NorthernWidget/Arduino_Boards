@@ -12,17 +12,18 @@
             {
                "name":"Northern Widget \"ALog\" AVR Boards",
                "architecture":"avr",
-               "version":"1.1.5",
+               "version":"0.2.0",
                "category":"Contributed",
-               "url":"https://github.com/sparkfun/Arduino_Boards/raw/master/IDE_Board_Manager/sparkfunboards.1.1.5.tar.bz2",
-               "archiveFileName":"sparkfunboards.1.1.5.tar.bz2",
-               "checksum":"SHA-256:41f9728983e0dbab597bb46ddf00b5bac6cfec7c8f3771ecd1612dae58bb0366",
-               "size":"1162215",
+               "url":"https://github.com/NorthernWidget/Arduino_Boards/raw/master/IDE_Board_Manager/NorthernWidgetAVR.tar.bz2",
+               "archiveFileName":"NorthernWidgetAVR.tar.bz2",
+               "architecture": "avr",
+               "size": "21858",
+               "checksum":"dd772446bc63a52ebb05e09f0e71b42f",
                "help":{
-                  "online":"https://forums.sparkfun.com"
+                  "online":"https://northernwidget.com/contact/"
                },
                "boards":[
-                  { "name":"ALog BottleLogger" },
+                  { "name":"ALog BottleLogger" }
                ],
                "toolsDependencies":[]
             }
