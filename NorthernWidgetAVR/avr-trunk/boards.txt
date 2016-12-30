@@ -1,0 +1,32 @@
+# Northern Widget contributed board configuration
+#
+# For more information see:
+# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+menu.cpu=Processor
+
+################################################################################
+############################## ALog BottleLogger ###############################
+################################################################################
+ALog_BottleLogger.name=ALog BottleLogger
+
+ALog_BottleLogger.upload.tool=avrdude
+ALog_BottleLogger.upload.protocol=arduino
+ALog_BottleLogger.upload.maximum_size=32256
+ALog_BottleLogger.upload.maximum_data_size=2048
+ALog_BottleLogger.upload.speed=115200
+
+ALog_BottleLogger.bootloader.tool=avrdude
+ALog_BottleLogger.bootloader.low_fuses=0xFF
+ALog_BottleLogger.bootloader.high_fuses=0xDE
+ALog_BottleLogger.bootloader.extended_fuses=0x05
+ALog_BottleLogger.bootloader.file=optiboot/optiboot_atmega328.hex
+
+ALog_BottleLogger.build.mcu=atmega328p
+ALog_BottleLogger.build.f_cpu=8000000L
+ALog_BottleLogger.build.board=ALog_BottleLogger
+ALog_BottleLogger.build.core=arduino:arduino
+ALog_BottleLogger.build.variant=arduino:standard
+
