@@ -28,5 +28,5 @@ ALog_BottleLogger.build.mcu=atmega328p
 ALog_BottleLogger.build.f_cpu=8000000L
 ALog_BottleLogger.build.board=ALog_BottleLogger
 ALog_BottleLogger.build.core=arduino:arduino
-ALog_BottleLogger.build.variant=arduino:standard
+ALog_BottleLogger.build.variant=arduino:eightanaloginputs
 
