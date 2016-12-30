@@ -18,7 +18,7 @@ Each board will be added as an entry to the Arduino **Tools** > **Board** menu.
 
 Go to **File** > **Preferences**, open 'Additional Boards Manager URLs', and paste the following:
 
-	https://raw.githubusercontent.com/NorthernWidget/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
+	https://raw.githubusercontent.com/NorthernWidget/Arduino_Boards/master/IDE_Board_Manager/package_NorthernWidget_index.json
 
 ![Adding a board manager list](https://cdn.sparkfun.com/assets/learn_tutorials/4/5/4/arduino-board-add.png) (link to Sparkfun's tutorial)
 
@@ -28,15 +28,15 @@ Now, under the **Tools** > **Board** > **Boards Manager...**, if you type in "No
 
 **NOTE: If you are using Arduino 1.6.6 and the link isn't working for you, change "https" at the beginning of the link to "http" and try again. We're working to figure out why this is happening in version 1.6.6.**
 
-![SparkFun Boards image](https://cdn.sparkfun.com/assets/learn_tutorials/4/5/4/sparkfun-arduino-board-install.png)
+[//]![SparkFun Boards image](https://cdn.sparkfun.com/assets/learn_tutorials/4/5/4/sparkfun-arduino-board-install.png)
 
-Now, when you select the Boards list, you will see a collection of new boards for SparkFun.
+Now, when you select the Boards list, you will see a collection of new boards for Northern WIdget.
 
-![SparkFun Boards List](boards_list.png)
+[//]![SparkFun Boards List](boards_list.png)
 
 ### Cleaning up the Boards Menu
 
-Each entry in the boards list is defined in [boards.txt](https://github.com/sparkfun/Arduino_Boards/blob/master/sparkfun/avr/boards.txt). If you want to de-clutter the menu, you can comment out a board by inserting a `#` at the beginning of each line.
+Each entry in the boards list is defined in [boards.txt](https://github.com/NorthernWidget/Arduino_Boards/blob/master/NorthernWidget/avr/boards.txt). If you want to de-clutter the menu, you can comment out a board by inserting a `#` at the beginning of each line.
 
 ### Notes
 
