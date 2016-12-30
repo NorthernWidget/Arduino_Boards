@@ -24,7 +24,7 @@ Go to **File** > **Preferences**, open 'Additional Boards Manager URLs', and pas
 
 This field can be found in 'Preferences...' under the Arduino File menu.
 
-Now, under the **Tools** > **Board** > **Boards Manager...**, if you type in "NorthernWidget", you will see an option to install board files for Northern Widget Arduino compatible boards. Click "Install" to add these to your list.
+Now, under the **Tools** > **Board** > **Boards Manager...**, if you type in "Northern Widget", you will see an option to install board files for Northern Widget Arduino compatible boards. Click "Install" to add these to your list.
 
 **NOTE: If you are using Arduino 1.6.6 and the link isn't working for you, change "https" at the beginning of the link to "http" and try again. We're working to figure out why this is happening in version 1.6.6.**
 
