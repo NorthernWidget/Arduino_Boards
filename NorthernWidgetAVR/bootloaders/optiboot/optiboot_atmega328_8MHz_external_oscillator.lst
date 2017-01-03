@@ -1,5 +1,5 @@
 
-optiboot_atmega328.elf:     file format elf32-avr
+optiboot_atmega328_8MHz_external_oscillator.elf:     file format elf32-avr
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn

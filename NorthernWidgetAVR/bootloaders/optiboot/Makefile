@@ -312,6 +312,25 @@ atmega328_isp: LFUSE ?= FF
 atmega328_isp: EFUSE ?= 05
 atmega328_isp: isp
 
+atmega328_8MHz_external_oscillator: TARGET = atmega328_8MHz_external_oscillator
+atmega328_8MHz_external_oscillator: MCU_TARGET = atmega328p
+atmega328_8MHz_external_oscillator: CFLAGS += $(COMMON_OPTIONS)
+atmega328_8MHz_external_oscillator: AVR_FREQ ?= 8000000L
+atmega328_8MHz_external_oscillator: LDSECTIONS  = -Wl,--section-start=.text=0x7e00 -Wl,--section-start=.version=0x7ffe
+atmega328_8MHz_external_oscillator: $(PROGRAM)_atmega328_8MHz_external_oscillator.hex
+atmega328_8MHz_external_oscillator: $(PROGRAM)_atmega328_8MHz_external_oscillator.lst
+
+atmega328_8MHz_external_oscillator_isp: atmega328
+atmega328_8MHz_external_oscillator_isp: TARGET = atmega328
+atmega328_8MHz_external_oscillator_isp: MCU_TARGET = atmega328p
+# 512 byte boot, SPIEN
+atmega328_8MHz_external_oscillator_isp: HFUSE ?= DE
+# Low power xtal (16MHz) 16KCK/14CK+65ms
+atmega328_8MHz_external_oscillator_isp: LFUSE ?= FF
+# 2.7V brownout
+atmega328_8MHz_external_oscillator_isp: EFUSE ?= 05
+atmega328_8MHz_external_oscillator_isp: isp
+
 #Atmega1280
 atmega1280: MCU_TARGET = atmega1280
 atmega1280: CFLAGS += $(COMMON_OPTIONS) -DBIGBOOT $(UART_CMD)
