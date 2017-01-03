@@ -18,7 +18,7 @@ Each board will be added as an entry to the Arduino **Tools** > **Board** menu.
 
 Go to **File** > **Preferences**, open 'Additional Boards Manager URLs', and paste the following:
 
-	https://raw.githubusercontent.com/NorthernWidget/Arduino_Boards/master/IDE_Board_Manager/package_NorthernWidget_index.json
+	https://raw.githubusercontent.com/NorthernWidget/Arduino_Boards/master/package_NorthernWidget_index.json
 
 <!--- [Adding a board manager list](https://cdn.sparkfun.com/assets/learn_tutorials/4/5/4/arduino-board-add.png) (link to Sparkfun's tutorial) -->
 
