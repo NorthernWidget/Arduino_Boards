@@ -16,7 +16,7 @@ ALog_BottleLogger.upload.tool=avrdude
 ALog_BottleLogger.upload.protocol=arduino
 ALog_BottleLogger.upload.maximum_size=32256
 ALog_BottleLogger.upload.maximum_data_size=2048
-ALog_BottleLogger.upload.speed=115200
+ALog_BottleLogger.upload.speed=57600
 
 ALog_BottleLogger.bootloader.tool=avrdude
 ALog_BottleLogger.bootloader.low_fuses=0xFF
@@ -24,12 +24,10 @@ ALog_BottleLogger.bootloader.high_fuses=0xDE
 ALog_BottleLogger.bootloader.extended_fuses=0x05
 ALog_BottleLogger.bootloader.unlock_bits=0x3F
 ALog_BottleLogger.bootloader.lock_bits=0x0F
-ALog_BottleLogger.bootloader.file=optiboot/optiboot_atmega328.hex
+ALog_BottleLogger.bootloader.file=optiboot/optiboot_atmega328_pro_8MHz.hex
 
 ALog_BottleLogger.build.mcu=atmega328p
 ALog_BottleLogger.build.f_cpu=8000000L
-ALog_BottleLogger.build.board=AVR_PRO
 ALog_BottleLogger.build.core=arduino:arduino
 ALog_BottleLogger.build.variant=arduino:eightanaloginputs
-
 
