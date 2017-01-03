@@ -20,7 +20,7 @@ ALog_BottleLogger.upload.speed=57600
 
 ALog_BottleLogger.bootloader.tool=avrdude
 ALog_BottleLogger.bootloader.low_fuses=0xFF
-ALog_BottleLogger.bootloader.high_fuses=0xDE
+ALog_BottleLogger.bootloader.high_fuses=0xD6
 ALog_BottleLogger.bootloader.extended_fuses=0x05
 ALog_BottleLogger.bootloader.unlock_bits=0x3F
 ALog_BottleLogger.bootloader.lock_bits=0x0F
