@@ -27,6 +27,7 @@ ALog_BottleLogger.bootloader.lock_bits=0x0F
 ALog_BottleLogger.bootloader.file=optiboot/optiboot_atmega328_8MHz_external_oscillator.hex
 
 ALog_BottleLogger.build.mcu=atmega328p
+ALog_BottleLogger.build.board=AVR_ALOG_BOTTLELOGGER
 ALog_BottleLogger.build.f_cpu=8000000L
 ALog_BottleLogger.build.core=arduino:arduino
 ALog_BottleLogger.build.variant=arduino:eightanaloginputs
