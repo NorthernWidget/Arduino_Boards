@@ -22,7 +22,7 @@
                   "online":"https://northernwidget.com/contact/"
                },
                "boards":[
-                  { "name":"ALog BottleLogger v<2.0.0" },
+                  { "name":"ALog BottleLogger pre-v2.0.0" },
                   { "name":"ALog BottleLogger v2.0.0" }
                ],
                "toolsDependencies":[]

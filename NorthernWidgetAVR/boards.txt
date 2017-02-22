@@ -8,9 +8,9 @@
 menu.cpu=Processor
 
 ################################################################################
-############################## ALog BottleLogger ###############################
+########## ALog BottleLogger before v2.0.0 (v0.X, v1.X, v2.0a, v2.0b) ##########
 ################################################################################
-ALog_BottleLogger.name=ALog BottleLogger
+ALog_BottleLogger.name=ALog BottleLogger pre-v2.0.0
 
 ALog_BottleLogger.upload.tool=avrdude
 ALog_BottleLogger.upload.protocol=arduino
@@ -31,4 +31,30 @@ ALog_BottleLogger.build.board=AVR_ALOG_BOTTLELOGGER
 ALog_BottleLogger.build.f_cpu=8000000L
 ALog_BottleLogger.build.core=arduino:arduino
 ALog_BottleLogger.build.variant=arduino:eightanaloginputs
+
+
+################################################################################
+########################### ALog BottleLogger v2.0.0 ###########################
+################################################################################
+ALog_BottleLogger_2.name=ALog BottleLogger v2.0.0
+
+ALog_BottleLogger_2.upload.tool=avrdude
+ALog_BottleLogger_2.upload.protocol=arduino
+ALog_BottleLogger_2.upload.maximum_size=32256
+ALog_BottleLogger_2.upload.maximum_data_size=2048
+ALog_BottleLogger_2.upload.speed=57600
+
+ALog_BottleLogger_2.bootloader.tool=avrdude
+ALog_BottleLogger_2.bootloader.low_fuses=0xFF
+ALog_BottleLogger_2.bootloader.high_fuses=0xD6
+ALog_BottleLogger_2.bootloader.extended_fuses=0x05
+ALog_BottleLogger_2.bootloader.unlock_bits=0x3F
+ALog_BottleLogger_2.bootloader.lock_bits=0x0F
+ALog_BottleLogger_2.bootloader.file=optiboot/optiboot_atmega328_8MHz_external_oscillator.hex
+
+ALog_BottleLogger_2.build.mcu=atmega328p
+ALog_BottleLogger_2.build.board=AVR_ALOG_BOTTLELOGGER
+ALog_BottleLogger_2.build.f_cpu=8000000L
+ALog_BottleLogger_2.build.core=arduino:arduino
+ALog_BottleLogger_2.build.variant=arduino:eightanaloginputs
 
