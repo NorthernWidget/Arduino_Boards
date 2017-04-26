@@ -10,7 +10,7 @@ menu.cpu=Processor
 ################################################################################
 ########## ALog BottleLogger before v2.0.0 (v0.X, v1.X, v2.0a, v2.0b) ##########
 ################################################################################
-ALog_BottleLogger.name=ALog BottleLogger pre-v2.0.0
+ALog_BottleLogger.name=ALog BottleLogger (legacy)
 
 ALog_BottleLogger.upload.tool=avrdude
 ALog_BottleLogger.upload.protocol=arduino
@@ -34,9 +34,9 @@ ALog_BottleLogger.build.variant=arduino:eightanaloginputs
 
 
 ################################################################################
-########################### ALog BottleLogger v2.0.0 ###########################
+########################### ALog BottleLogger v2.X.Y ###########################
 ################################################################################
-ALog_BottleLogger_2.name=ALog BottleLogger v2.0.0
+ALog_BottleLogger_2.name=ALog BottleLogger v2
 
 ALog_BottleLogger_2.upload.tool=avrdude
 ALog_BottleLogger_2.upload.protocol=arduino
