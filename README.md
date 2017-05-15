@@ -24,7 +24,7 @@ Go to **File** > **Preferences** (or **Arduino** > **Preferences** on Mac).
 
 ![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/File_Preferences.png "Open the Arduino IDE preferences.")
 
-Open 'Additional Boards Manager URLs', and paste the following in either the box for **Additional Boards Manager URLs**, or, if this is populated, the window that pops up when you hit the button to the right of the **Additional Boards Manager URLs** text entry area:
+Open 'Additional Boards Manager URLs', and paste the following in either the box for **Additional Boards Manager URLs**, or, if this is populated, the window that pops up when you hit the button to the right of the **Additional Boards Manager URLs** text entry area:  https://raw.githubusercontent.com/NorthernWidget/Arduino_Boards/master/package_NorthernWidget_index.json
 
 ![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/PreferencesWindow.png "Paste the URL here.")
 
