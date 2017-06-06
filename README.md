@@ -20,40 +20,39 @@ Go to **File** > **Preferences** (or **Arduino** > **Preferences** on Mac).
 
 <!--- [Adding a board manager list](https://cdn.sparkfun.com/assets/learn_tutorials/4/5/4/arduino-board-add.png) (link to Sparkfun's tutorial) -->
 
-![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/File_Preferences.png "Open the Arduino IDE preferences.")
+![Open the Arduino IDE preferences](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/File_Preferences.png "Open the Arduino IDE preferences.")
 
 Open 'Additional Boards Manager URLs', and paste the following in either the box for **Additional Boards Manager URLs**, or, if this is populated, the window that pops up when you hit the button to the right of the **Additional Boards Manager URLs** text entry area:  
 
 	https://raw.githubusercontent.com/NorthernWidget/Arduino_Boards/master/package_NorthernWidget_index.json
 
-![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/PreferencesWindow.png "Paste the URL here.")
+![Paste the URL here](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/PreferencesWindow.png "Paste the URL here.")
 
-![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardURLs_list.png "Unless you already have done that for third-party boards... in that case, open this frame and paste the URL here.")
+![Unless you already have done that for third-party boards... in that case, open this frame and paste the URL here.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardURLs_list.png "Unless you already have done that for third-party boards... in that case, open this frame and paste the URL here.")
 
 Now, go to **Tools** > **Board** > **Boards Manager...**.
 
-![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_BoardManager.png "Open the boards manager here.")
+![Open the boards manager here.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_BoardManager.png "Open the boards manager here.")
 
 Click it, and the following window will appear:
 
-![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardsManager.png "Boards Manager.")
+![Boards Manager.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardsManager.png "Boards Manager.")
 
 if you type in "Northern Widget" (or usually just "Northern" as well), you should see an option to install board files for Northern Widget Arduino compatible boards.
 
-![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardsManager_Northern.png "Northern Widget boards.")
+![Northern Widget boards.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardsManager_Northern.png "Northern Widget boards.")
 
 **If Northern Widget options do not appear**, restart your Arduino IDE and try again.
 
 Click "Install" to add the NorthernWidget boards to your list. At the time of writing, we support only AVR boards, but this may change soon.
 
-![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardsManager_Northern_Done.png "ALog (AVR) support installed.")
+![ALog (AVR) support installed.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardsManager_Northern_Done.png "ALog (AVR) support installed.")
 
 Now, when you select the Boards list, you will see a collection of new boards for Northern Widget.
 
 You will then want to change your chosen board to the board that you have. At the time of writing, this is probably the "ALog BottleLogger v2"; the "legacy" option is used for v2.0.0-beta and prior, and there are fewer of these boards in circulation.
 
-![alt text](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_NorthernWidget_ALog_BottleLogger_v2.png "Now, when you go to Tools > Board, you should see the Northern Widget ALog boards. Select the proper one")
-
+![Select the proper board.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_NorthernWidget_ALog_BottleLogger_v2.png "Now, when you go to Tools > Board, you should see the Northern Widget ALog boards. Select the proper board.")
 
 <!---**NOTE: If you are using Arduino 1.6.6** and the link isn't working for you, change "https" at the beginning of the link to "http" and try again. We've stopped working to figure out why this is happening in version 1.6.6; update your Arduino IDE!-->
 
