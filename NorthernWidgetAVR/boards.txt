@@ -58,3 +58,30 @@ ALog_BottleLogger_2.build.f_cpu=8000000L
 ALog_BottleLogger_2.build.core=arduino:arduino
 ALog_BottleLogger_2.build.variant=arduino:eightanaloginputs
 
+
+################################################################################
+########################### ALog BottleLogger v3.X.Y ###########################
+################################################################################
+ALog_BottleLogger_3.name=ALog BottleLogger v3
+
+ALog_BottleLogger_3.upload.tool=avrdude
+ALog_BottleLogger_3.upload.protocol=arduino
+ALog_BottleLogger_3.upload.maximum_size=64512
+ALog_BottleLogger_3.upload.maximum_data_size=4096
+ALog_BottleLogger_3.upload.speed=57600
+
+ALog_BottleLogger_3.bootloader.tool=avrdude
+ALog_BottleLogger_3.bootloader.low_fuses=0xF7
+ALog_BottleLogger_3.bootloader.high_fuses=0xD6
+ALog_BottleLogger_3.bootloader.extended_fuses=0xFB
+ALog_BottleLogger_3.bootloader.unlock_bits=0x3F
+ALog_BottleLogger_3.bootloader.lock_bits=0x0F
+ALog_BottleLogger_3.bootloader.file=optiboot/optiboot_flash_atmega644p_57600_8000000L.hex
+
+ALog_BottleLogger_3.build.core=arduino:arduino
+ALog_BottleLogger_3.build.board=AVR_ATmega644
+
+ALog_BottleLogger_3.build.mcu=atmega644p
+ALog_BottleLogger_3.build.f_cpu=8000000L
+ALog_BottleLogger_3.build.variant=standard
+
