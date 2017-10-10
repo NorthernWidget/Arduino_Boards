@@ -23,8 +23,8 @@
                },
                "boards":[
                   { "name":"ALog BottleLogger (legacy)" },
-                  { "name":"ALog BottleLogger v2" }
-                  { "name":"ALog BottleLogger v3" }
+                  { "name":"ALog BottleLogger v2" },
+                  { "name":"ALog BottleLogger v3" },
                ],
                "toolsDependencies":[]
             }
