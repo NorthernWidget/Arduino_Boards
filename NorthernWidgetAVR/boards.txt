@@ -107,6 +107,6 @@ TLog.build.mcu=atmega644p
 TLog.build.board=AVR_TLOG_V1
 TLog.build.f_cpu=8000000L
 TLog.build.core=arduino:arduino
-TLog.build.variant=standard
+TLog.build.variant=TLog
 
 
