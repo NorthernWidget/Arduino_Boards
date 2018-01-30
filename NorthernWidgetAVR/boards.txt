@@ -82,7 +82,7 @@ ALog_BottleLogger_3.build.mcu=atmega644p
 ALog_BottleLogger_3.build.board=AVR_ALOG_BOTTLELOGGER_V3
 ALog_BottleLogger_3.build.f_cpu=8000000L
 ALog_BottleLogger_3.build.core=arduino:arduino
-ALog_BottleLogger_3.build.variant=standard
+ALog_BottleLogger_3.build.variant=ALog
 
 ################################################################################
 ########################### TLog v1.X.Y ########################################
