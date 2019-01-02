@@ -17,7 +17,7 @@
                "url":"https://github.com/NorthernWidget/Arduino_Boards/raw/master/NorthernWidgetAVR.tar.bz2",
                "archiveFileName":"NorthernWidgetAVR.tar.bz2",
                "architecture": "avr",
-               "size": "226531",
+               "size": "227976",
                "help":{
                   "online":"https://northernwidget.com/contact/"
                },
@@ -25,6 +25,7 @@
                   { "name":"ALog BottleLogger (legacy)" },
                   { "name":"ALog BottleLogger v2" },
                   { "name":"ALog BottleLogger v3" }
+                  { "name":"ALog TLog v1" }
                ],
                "toolsDependencies":[]
             }
