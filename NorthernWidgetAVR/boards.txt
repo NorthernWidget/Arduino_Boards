@@ -60,56 +60,6 @@ ALog_BottleLogger_2.build.variant=arduino:eightanaloginputs
 
 
 ################################################################################
-########################### ALog BottleLogger v3.X.Y ###########################
-################################################################################
-ALog_BottleLogger_3.name=ALog BottleLogger v3
-
-ALog_BottleLogger_3.upload.tool=avrdude
-ALog_BottleLogger_3.upload.protocol=arduino
-ALog_BottleLogger_3.upload.maximum_size=64512
-ALog_BottleLogger_3.upload.maximum_data_size=4096
-ALog_BottleLogger_3.upload.speed=57600
-
-ALog_BottleLogger_3.bootloader.tool=avrdude
-ALog_BottleLogger_3.bootloader.low_fuses=0xF7
-ALog_BottleLogger_3.bootloader.high_fuses=0xD6
-ALog_BottleLogger_3.bootloader.extended_fuses=0xFB
-ALog_BottleLogger_3.bootloader.unlock_bits=0x3F
-ALog_BottleLogger_3.bootloader.lock_bits=0x0F
-ALog_BottleLogger_3.bootloader.file=NW/optiboot_flash_atmega644p_57600_8000000L.hex
-
-ALog_BottleLogger_3.build.mcu=atmega644p
-ALog_BottleLogger_3.build.board=AVR_ALOG_BOTTLELOGGER_V3
-ALog_BottleLogger_3.build.f_cpu=8000000L
-ALog_BottleLogger_3.build.core=arduino:arduino
-ALog_BottleLogger_3.build.variant=ALogv3
-
-################################################################################
-########################### TLog v1.X.Y ########################################
-################################################################################
-TLog.name=TLog v1
-
-TLog.upload.tool=avrdude
-TLog.upload.protocol=arduino
-TLog.upload.maximum_size=64512
-TLog.upload.maximum_data_size=4096
-TLog.upload.speed=57600
-
-TLog.bootloader.tool=avrdude
-TLog.bootloader.low_fuses=0xF7
-TLog.bootloader.high_fuses=0xD6
-TLog.bootloader.extended_fuses=0xFB
-TLog.bootloader.unlock_bits=0x3F
-TLog.bootloader.lock_bits=0x0F
-TLog.bootloader.file=NW/NW644.hex
-
-TLog.build.mcu=atmega644p
-TLog.build.board=AVR_TLOG_V1
-TLog.build.f_cpu=8000000L
-TLog.build.core=arduino:arduino
-TLog.build.variant=TLogv1
-
-################################################################################
 ########################### NW644 vX.Y.Z #######################################
 ################################################################################
 NW644.name=ATMega644p 8MHz
