@@ -22,10 +22,10 @@
                   "online":"https://northernwidget.com/contact/"
                },
                "boards":[
-            		  { "name":"ATMega1284p 8MHz"}
-            		  { "name":"ATMega644p 8MHz"},
+                  { "name":"ATMega1284p 8MHz"},
+                  { "name":"ATMega644p 8MHz"},
                   { "name":"ALog BottleLogger v2" },
-                  { "name":"ALog BottleLogger (legacy)" },
+                  { "name":"ALog BottleLogger (legacy)" }
                ],
                "toolsDependencies":[]
             }
