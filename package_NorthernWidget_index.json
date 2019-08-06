@@ -12,12 +12,12 @@
             {
                "name":"Northern Widget Data Logger AVR Boards",
                "architecture":"avr",
-               "version":"0.2.2",
+               "version":"0.3.0",
                "category":"Contributed",
                "url":"https://github.com/NorthernWidget/Arduino_Boards/raw/master/NorthernWidgetAVR.tar.bz2",
                "archiveFileName":"NorthernWidgetAVR.tar.bz2",
                "architecture": "avr",
-               "size": "199955",
+               "size": "201511",
                "help":{
                   "online":"https://northernwidget.com/contact/"
                },
