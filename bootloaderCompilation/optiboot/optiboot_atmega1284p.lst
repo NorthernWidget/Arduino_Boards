@@ -11,9 +11,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   3 .stab         00000dec  00000000  00000000  000003bc  2**2
                   CONTENTS, READONLY, DEBUGGING
-  4 .stabstr      000010da  00000000  00000000  000011a8  2**0
+  4 .stabstr      000010d2  00000000  00000000  000011a8  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .comment      00000011  00000000  00000000  00002282  2**0
+  5 .comment      00000011  00000000  00000000  0000227a  2**0
                   CONTENTS, READONLY
 
 Disassembly of section .text:
@@ -464,7 +464,7 @@ static void do_spm(uint16_t address, uint8_t command, uint16_t data) {
 
 0001fed7 <f_date>:
    1fed7:	42 75 69 6c 74 3a 41 75 67 20 20 36 20 32 30 31     Built:Aug  6 201
-   1fee7:	39 3a 30 39 3a 32 31 3a 33 35 00                    9:09:21:35.
+   1fee7:	39 3a 30 39 3a 33 31 3a 33 32 00                    9:09:31:32.
 
 0001fef2 <fUART>:
    1fef2:	55 41 52 54 3d 31 00                                UART=1.
