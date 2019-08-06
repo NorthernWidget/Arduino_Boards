@@ -1,5 +1,5 @@
 # 1 "baudcheck.c"
-# 1 "/home/awickert/Dropbox/NorthernWidget/Arduino_Boards/NorthernWidgetAVR/bootloaders/optiboot//"
+# 1 "/home/awickert/Dropbox/NorthernWidget/Arduino_Boards/bootloaderCompilation/optiboot//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "baudcheck.c"
