@@ -144,14 +144,14 @@ NW1284p.upload.tool=avrdude
 NW1284p.upload.protocol=arduino
 NW1284p.upload.maximum_size=130048
 NW1284p.upload.maximum_data_size=16384
-NW1284p.upload.speed=115200
+NW1284p.upload.speed=57600
 
 NW1284p.bootloader.tool=avrdude
 NW1284p.bootloader.low_fuses=0xF7
-NW1284p.bootloader.high_fuses=0xD6
+NW1284p.bootloader.high_fuses=0xDE
 NW1284p.bootloader.extended_fuses=0xFE
 NW1284p.bootloader.unlock_bits=0x3F
-NW1284p.bootloader.lock_bits=0x0F
+NW1284p.bootloader.lock_bits=0x2F
 NW1284p.bootloader.file=NW/NW1284p.hex
 
 NW1284p.build.mcu=atmega1284p
