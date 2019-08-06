@@ -3,11 +3,11 @@ optiboot_atmega1284p.elf:     file format elf32-avr
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .data         00000000  00800100  0001ff24  000003b8  2**0
+  0 .data         00000000  00800100  0001ff25  000003b9  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  1 .text         00000324  0001fc00  0001fc00  00000094  2**1
+  1 .text         00000325  0001fc00  0001fc00  00000094  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .version      00000002  0001fffe  0001fffe  000003b8  2**0
+  2 .version      00000002  0001fffe  0001fffe  000003b9  2**0
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   3 .stab         00000dec  00000000  00000000  000003bc  2**2
                   CONTENTS, READONLY, DEBUGGING
@@ -53,7 +53,7 @@ void pre_main(void) {
    1fc34:	80 93 c9 00 	sts	0x00C9, r24	; 0x8000c9 <__TEXT_REGION_LENGTH__+0x7e00c9>
    1fc38:	86 e0       	ldi	r24, 0x06	; 6
    1fc3a:	80 93 ca 00 	sts	0x00CA, r24	; 0x8000ca <__TEXT_REGION_LENGTH__+0x7e00ca>
-   1fc3e:	89 e1       	ldi	r24, 0x19	; 25
+   1fc3e:	88 e0       	ldi	r24, 0x08	; 8
    1fc40:	80 93 cc 00 	sts	0x00CC, r24	; 0x8000cc <__TEXT_REGION_LENGTH__+0x7e00cc>
    1fc44:	8e e0       	ldi	r24, 0x0E	; 14
    1fc46:	e6 d0       	rcall	.+460    	; 0x1fe14 <watchdogConfig>
@@ -464,17 +464,18 @@ static void do_spm(uint16_t address, uint8_t command, uint16_t data) {
 
 0001fed7 <f_date>:
    1fed7:	42 75 69 6c 74 3a 41 75 67 20 20 36 20 32 30 31     Built:Aug  6 201
-   1fee7:	39 3a 30 39 3a 33 31 3a 33 32 00                    9:09:31:32.
+   1fee7:	39 3a 30 39 3a 35 35 3a 31 34 00                    9:09:55:14.
 
 0001fef2 <fUART>:
    1fef2:	55 41 52 54 3d 31 00                                UART=1.
 
 0001fef9 <fBAUD_RATE>:
-   1fef9:	42 41 55 44 5f 52 41 54 45 3d 33 38 34 30 30 00     BAUD_RATE=38400.
+   1fef9:	42 41 55 44 5f 52 41 54 45 3d 31 31 35 32 30 30     BAUD_RATE=115200
+	...
 
-0001ff09 <f_LED>:
-   1ff09:	4c 45 44 3d 43 34 00                                LED=C4.
+0001ff0a <f_LED>:
+   1ff0a:	4c 45 44 3d 43 34 00                                LED=C4.
 
-0001ff10 <fLED_START_FLASHES>:
-   1ff10:	4c 45 44 5f 53 54 41 52 54 5f 46 4c 41 53 48 45     LED_START_FLASHE
-   1ff20:	53 3d 33 00                                         S=3.
+0001ff11 <fLED_START_FLASHES>:
+   1ff11:	4c 45 44 5f 53 54 41 52 54 5f 46 4c 41 53 48 45     LED_START_FLASHE
+   1ff21:	53 3d 33 00                                         S=3.
