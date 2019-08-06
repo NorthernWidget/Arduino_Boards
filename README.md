@@ -61,8 +61,7 @@ You will then want to change your chosen board to the board that you have. At th
 <!---[//]![SparkFun Boards List](boards_list.png)-->
 
 <!--- ### Cleaning up the Boards Menu
-
-Each entry in the boards list is defined in [boards.txt](https://github.com/NorthernWidget/Arduino_Boards/blob/master/NorthernWidgetAVR/boards.txt). If you want to de-clutter the menu, you can comment out a board by inserting a `#` at the beginning of each line.
+Each entry in the boards list is defined in [boards.txt](https://github.com/NorthernWidget/Arduino_Boards/blob/master/NorthernWidgetAVR/boards.txt). If you want to de-clutter the menu, you can comment out a board by inserting a `#` at the beginning of each line.-->
 
 ### Notes
 
@@ -70,6 +69,11 @@ Each entry in the boards list is defined in [boards.txt](https://github.com/Nort
 * Some boards such as the Pro Micro and the Mega Pro come in more than one form.  For these **you must select the correct processor** in the 'Tools' menu.
 * Information on compiling and programming the bootloaders can be found in the bootloaders directory.
 * **Bugs introduced in the Arduino IDE version 1.6.6 through at least 1.6.9 produce errors indicating there is something wrong with these files. This can be resolved by reverting back to 1.6.5-r5. So far all reports seem to indicated that 1.6.10 has also fixed the issues. These intermittent issues are difficult to reliably reproduce.**
--->
+* If you have previously installed a Northern Widget Board package, you may get an error message `Board xxxx is unknown`, if you get this error simply navigate to the Arduino packages folder (using the link in the preferances window is easiest way to find it), then go to `packages` and delete the folder named `NorthernWidget`, then reinstall the board file using the Board Manager 
+
+
+
 
 **That's it! You're done, and ready to rock and roll... er, collect data, with your ALog data logger.**
+
+

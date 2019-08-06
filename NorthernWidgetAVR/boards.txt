@@ -24,7 +24,7 @@ ALog_BottleLogger.bootloader.high_fuses=0xD6
 ALog_BottleLogger.bootloader.extended_fuses=0x05
 ALog_BottleLogger.bootloader.unlock_bits=0x3F
 ALog_BottleLogger.bootloader.lock_bits=0x0F
-ALog_BottleLogger.bootloader.file=optiboot/optiboot_atmega328_8MHz_external_oscillator.hex
+ALog_BottleLogger.bootloader.file=NW/optiboot_atmega328_8MHz_external_oscillator.hex
 
 ALog_BottleLogger.build.mcu=atmega328p
 ALog_BottleLogger.build.board=AVR_ALOG_BOTTLELOGGER_PRE_V200
@@ -50,7 +50,7 @@ ALog_BottleLogger_2.bootloader.high_fuses=0xD6
 ALog_BottleLogger_2.bootloader.extended_fuses=0x05
 ALog_BottleLogger_2.bootloader.unlock_bits=0x3F
 ALog_BottleLogger_2.bootloader.lock_bits=0x0F
-ALog_BottleLogger_2.bootloader.file=optiboot/optiboot_atmega328_8MHz_external_oscillator.hex
+ALog_BottleLogger_2.bootloader.file=NW/optiboot_atmega328_8MHz_external_oscillator.hex
 
 ALog_BottleLogger_2.build.mcu=atmega328p
 ALog_BottleLogger_2.build.board=AVR_ALOG_BOTTLELOGGER_V2
@@ -76,7 +76,7 @@ ALog_BottleLogger_3.bootloader.high_fuses=0xD6
 ALog_BottleLogger_3.bootloader.extended_fuses=0xFB
 ALog_BottleLogger_3.bootloader.unlock_bits=0x3F
 ALog_BottleLogger_3.bootloader.lock_bits=0x0F
-ALog_BottleLogger_3.bootloader.file=optiboot/optiboot_flash_atmega644p_57600_8000000L.hex
+ALog_BottleLogger_3.bootloader.file=NW/optiboot_flash_atmega644p_57600_8000000L.hex
 
 ALog_BottleLogger_3.build.mcu=atmega644p
 ALog_BottleLogger_3.build.board=AVR_ALOG_BOTTLELOGGER_V3
@@ -101,7 +101,7 @@ TLog.bootloader.high_fuses=0xD6
 TLog.bootloader.extended_fuses=0xFB
 TLog.bootloader.unlock_bits=0x3F
 TLog.bootloader.lock_bits=0x0F
-TLog.bootloader.file=optiboot/NW644.hex
+TLog.bootloader.file=NW/NW644.hex
 
 TLog.build.mcu=atmega644p
 TLog.build.board=AVR_TLOG_V1
@@ -110,9 +110,9 @@ TLog.build.core=arduino:arduino
 TLog.build.variant=TLogv1
 
 ################################################################################
-########################### NW644 vX.Y.X #######################################
+########################### NW644 vX.Y.Z #######################################
 ################################################################################
-NW644.name=NW644 (8MHz): Margay, Resnik
+NW644.name=NW644 (8MHz): Margay<2.2
 
 NW644.upload.tool=avrdude
 NW644.upload.protocol=arduino
@@ -126,11 +126,37 @@ NW644.bootloader.high_fuses=0xD6
 NW644.bootloader.extended_fuses=0xFB
 NW644.bootloader.unlock_bits=0x3F
 NW644.bootloader.lock_bits=0x0F
-NW644.bootloader.file=optiboot/NW644.hex
+NW644.bootloader.file=NW/NW644.hex
 
 NW644.build.mcu=atmega644p
 NW644.build.board=AVR_NW644
 NW644.build.f_cpu=8000000L
 NW644.build.core=arduino:arduino
 NW644.build.variant=NW644
+
+
+################################################################################
+########################### NW1284p vX.Y.Z #####################################
+################################################################################
+NW1284p.name=NW1284p (8MHz): Margay2.2, Resnik
+
+NW1284p.upload.tool=avrdude
+NW1284p.upload.protocol=arduino
+NW1284p.upload.maximum_size=130048
+NW1284p.upload.maximum_data_size=16384
+NW1284p.upload.speed=115200
+
+NW1284p.bootloader.tool=avrdude
+NW1284p.bootloader.low_fuses=0xF7
+NW1284p.bootloader.high_fuses=0xD6
+NW1284p.bootloader.extended_fuses=0xFE
+NW1284p.bootloader.unlock_bits=0x3F
+NW1284p.bootloader.lock_bits=0x0F
+NW1284p.bootloader.file=NW/NW1284p.hex
+
+NW1284p.build.mcu=atmega1284p
+NW1284p.build.board=AVR_NW1284p
+NW1284p.build.f_cpu=8000000L
+NW1284p.build.core=arduino:arduino
+NW1284p.build.variant=NW1284p
 
