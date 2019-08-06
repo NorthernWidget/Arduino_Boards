@@ -110,9 +110,9 @@ TLog.build.core=arduino:arduino
 TLog.build.variant=TLogv1
 
 ################################################################################
-########################### NW644 vX.Y.X #######################################
+########################### NW644 vX.Y.Z #######################################
 ################################################################################
-NW644.name=NW644 (8MHz): Margay, Resnik
+NW644.name=NW644 (8MHz): Margay<2.2
 
 NW644.upload.tool=avrdude
 NW644.upload.protocol=arduino
@@ -133,4 +133,30 @@ NW644.build.board=AVR_NW644
 NW644.build.f_cpu=8000000L
 NW644.build.core=arduino:arduino
 NW644.build.variant=NW644
+
+
+################################################################################
+########################### NW1284p vX.Y.Z #####################################
+################################################################################
+NW1284p.name=NW1284p (8MHz): Margay2.2, Resnik
+
+NW1284p.upload.tool=avrdude
+NW1284p.upload.protocol=arduino
+NW1284p.upload.maximum_size=130048
+NW1284p.upload.maximum_data_size=16384
+NW1284p.upload.speed=115200
+
+NW1284p.bootloader.tool=avrdude
+NW1284p.bootloader.low_fuses=0xF7
+NW1284p.bootloader.high_fuses=0xD6
+NW1284p.bootloader.extended_fuses=0xFE
+NW1284p.bootloader.unlock_bits=0x3F
+NW1284p.bootloader.lock_bits=0x0F
+NW1284p.bootloader.file=NW/NW1284p.hex
+
+NW1284p.build.mcu=atmega1284p
+NW1284p.build.board=AVR_NW1284p
+NW1284p.build.f_cpu=8000000L
+NW1284p.build.core=arduino:arduino
+NW1284p.build.variant=NW1284p
 
