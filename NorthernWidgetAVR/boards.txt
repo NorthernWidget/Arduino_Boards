@@ -24,7 +24,7 @@ ALog_BottleLogger.bootloader.high_fuses=0xD6
 ALog_BottleLogger.bootloader.extended_fuses=0x05
 ALog_BottleLogger.bootloader.unlock_bits=0x3F
 ALog_BottleLogger.bootloader.lock_bits=0x0F
-ALog_BottleLogger.bootloader.file=optiboot/optiboot_atmega328_8MHz_external_oscillator.hex
+ALog_BottleLogger.bootloader.file=optiboot_old/optiboot_atmega328_8MHz_external_oscillator.hex
 
 ALog_BottleLogger.build.mcu=atmega328p
 ALog_BottleLogger.build.board=AVR_ALOG_BOTTLELOGGER_PRE_V200
@@ -50,7 +50,7 @@ ALog_BottleLogger_2.bootloader.high_fuses=0xD6
 ALog_BottleLogger_2.bootloader.extended_fuses=0x05
 ALog_BottleLogger_2.bootloader.unlock_bits=0x3F
 ALog_BottleLogger_2.bootloader.lock_bits=0x0F
-ALog_BottleLogger_2.bootloader.file=optiboot/optiboot_atmega328_8MHz_external_oscillator.hex
+ALog_BottleLogger_2.bootloader.file=optiboot_old/optiboot_atmega328_8MHz_external_oscillator.hex
 
 ALog_BottleLogger_2.build.mcu=atmega328p
 ALog_BottleLogger_2.build.board=AVR_ALOG_BOTTLELOGGER_V2
@@ -76,7 +76,7 @@ ALog_BottleLogger_3.bootloader.high_fuses=0xD6
 ALog_BottleLogger_3.bootloader.extended_fuses=0xFB
 ALog_BottleLogger_3.bootloader.unlock_bits=0x3F
 ALog_BottleLogger_3.bootloader.lock_bits=0x0F
-ALog_BottleLogger_3.bootloader.file=optiboot/optiboot_flash_atmega644p_57600_8000000L.hex
+ALog_BottleLogger_3.bootloader.file=optiboot_old/optiboot_flash_atmega644p_57600_8000000L.hex
 
 ALog_BottleLogger_3.build.mcu=atmega644p
 ALog_BottleLogger_3.build.board=AVR_ALOG_BOTTLELOGGER_V3
@@ -101,7 +101,7 @@ TLog.bootloader.high_fuses=0xD6
 TLog.bootloader.extended_fuses=0xFB
 TLog.bootloader.unlock_bits=0x3F
 TLog.bootloader.lock_bits=0x0F
-TLog.bootloader.file=optiboot/NW644.hex
+TLog.bootloader.file=optiboot_old/NW644.hex
 
 TLog.build.mcu=atmega644p
 TLog.build.board=AVR_TLOG_V1
@@ -126,7 +126,7 @@ NW644.bootloader.high_fuses=0xD6
 NW644.bootloader.extended_fuses=0xFB
 NW644.bootloader.unlock_bits=0x3F
 NW644.bootloader.lock_bits=0x0F
-NW644.bootloader.file=optiboot/NW644.hex
+NW644.bootloader.file=optiboot_old/NW644.hex
 
 NW644.build.mcu=atmega644p
 NW644.build.board=AVR_NW644
