@@ -14,7 +14,7 @@ This repository contains board definition files for the Arduino-compatible data 
 * **ALog BottleLogger v2**
   * THe modern (and likely ultimate) [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
 * **ALog BottleLogger (legacy)**
-  * Early prototypes of the [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
+  * [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger) v2.0.0-beta and prior
 		  
 Each board will be added as an entry to the Arduino **Tools** > **Board** menu.
 
@@ -48,13 +48,13 @@ if you type in "Northern Widget" (or usually just "Northern" as well), you shoul
 
 **If Northern Widget options do not appear**, restart your Arduino IDE and try again.
 
-Click "Install" to add the NorthernWidget boards to your list. At the time of writing, we support only AVR boards, but this may change soon.
+Click "Install" to add the NorthernWidget boards to your list. At the time of writing, we support only AVR boards.
 
-![ALog (AVR) support installed.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardsManager_Northern_Done.png "ALog (AVR) support installed.")
+![Northern Widget AVR support installed.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/BoardsManager_Northern_Done.png "Northern Widget AVR support installed.")
 
 Now, when you select the Boards list, you will see a collection of new boards for Northern Widget.
 
-You will then want to change your chosen board to the board that you have. At the time of writing, this is probably the "ALog BottleLogger v2"; the "legacy" option is used for v2.0.0-beta and prior, and there are fewer of these boards in circulation.
+You will then want to change your selection to match the microcontroller that you are using. At the time of writing, this is probably **ATMega1284p 8MHz**.
 
 ![Select the proper board.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_NorthernWidget_ALog_BottleLogger_v2.png "Now, when you go to Tools > Board, you should see the Northern Widget ALog boards. Select the proper board.")
 
@@ -78,6 +78,6 @@ Each entry in the boards list is defined in [boards.txt](https://github.com/Nort
 
 
 
-**That's it! You're done, and ready to rock and roll... er, collect data, with your ALog data logger.**
+**That's it! You're done, and ready to rock and roll... er, collect data, with your Northern Widget data logger.**
 
 
