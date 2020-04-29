@@ -4,14 +4,18 @@ This repository contains board definition files for the Arduino-compatible data 
 
 (This repository and README based gratuitously off of Sparkfun's)
 
-#### AVR Boards
+#### Supported AVR Boards and uses on Northern Widget devices
 
-* [ALog BottleLogger](http://northernwidget.com/alog/specs/)
-
-#### SAMD (ARM Cortex-M0+) Boards
-
-* [in development]
-
+* **ATMega1284p 8MHz**
+  * [Project Resnik](https://github.com/NorthernWidget-Skunkworks/Project-Resnik): Versatile data logger with built-in solar charge control and modular telemetry
+  * [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay): Extreme-low-power data logger
+* **ATMega644p 8MHz**
+  * Older variants of [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
+* **ALog BottleLogger v2**
+  * THe modern (and likely ultimate) [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
+* **ALog BottleLogger (legacy)**
+  * Early prototypes of the [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
+		  
 Each board will be added as an entry to the Arduino **Tools** > **Board** menu.
 
 ### Installation Instructions
