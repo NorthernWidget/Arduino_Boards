@@ -56,7 +56,7 @@ Now, when you select the Boards list, you will see a collection of new boards fo
 
 You will then want to change your selection to match the microcontroller that you are using. At the time of writing, this is probably **ATMega1284p 8MHz**.
 
-![Select the proper board.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_NorthernWidget_ALog_BottleLogger_v2.png "Now, when you go to Tools > Board, you should see the Northern Widget ALog boards. Select the proper board.")
+![Select the proper board.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_NorthernWidget.png "Now, when you go to Tools > Board, you should see the Northern Widget Boards. Select the proper board/MCU, which at the time of writing is most likely ATMega1284P 8MHz.")
 
 <!---**NOTE: If you are using Arduino 1.6.6** and the link isn't working for you, change "https" at the beginning of the link to "http" and try again. We've stopped working to figure out why this is happening in version 1.6.6; update your Arduino IDE!-->
 
@@ -78,6 +78,6 @@ Each entry in the boards list is defined in [boards.txt](https://github.com/Nort
 
 
 
-**That's it! You're done, and ready to rock and roll... er, collect data, with your Northern Widget data logger.**
+**That's it! You're done, and ready to rock and roll... er, bootload, program, and collect data with your Northern Widget data logger.**
 
 
