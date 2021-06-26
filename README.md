@@ -4,7 +4,7 @@ This repository contains board definition files for the Arduino-compatible data 
 
 (This repository and README based gratuitously off of Sparkfun's)
 
-**Please note: This will only work under Arduino IDE versions 1.5 and up.**
+**Note: This will only work under Arduino IDE versions 1.5 and up.**
 
 #### Supported AVR Boards and uses on Northern Widget devices
 
@@ -58,12 +58,12 @@ Now, when you select the Boards list, you will see a collection of new boards fo
 
 You will then want to change your selection to match the microcontroller that you are using. At the time of writing, this is probably **ATMega1284p 8MHz**, but as a reference:
 * **ATMega1284p 8MHz**
-  * [Project Resnik](https://github.com/NorthernWidget-Skunkworks/Project-Resnik): Versatile data logger with built-in solar charge control and modular telemetry
-  * [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay): Extreme-low-power data logger
+  * [Project Resnik](https://github.com/NorthernWidget-Skunkworks/Project-Resnik)
+  * Current variants of [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
 * **ATMega644p 8MHz**
   * Older variants of [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
 * **ALog BottleLogger v2**
-  * THe modern (and likely ultimate) [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
+  * The modern (and likely ultimate) [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
 * **ALog BottleLogger (legacy)**
   * [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger) v2.0.0-beta and prior
 
@@ -80,7 +80,7 @@ Each entry in the boards list is defined in [boards.txt](https://github.com/Nort
 
 ### Notes
 
-* **Please note: This will only work under Arduino IDE versions 1.5 and up.**
+* **This will only work under Arduino IDE versions 1.5 and up.**
 * Some boards such as the Pro Micro and the Mega Pro come in more than one form.  For these **you must select the correct processor** in the 'Tools' menu.
 * Information on compiling and programming the bootloaders can be found in the bootloaders directory.
 * **Bugs introduced in the Arduino IDE version 1.6.6 through at least 1.6.9 produce errors indicating there is something wrong with these files. This can be resolved by reverting back to 1.6.5-r5. So far all reports seem to indicated that 1.6.10 has also fixed the issues. These intermittent issues are difficult to reliably reproduce.**
