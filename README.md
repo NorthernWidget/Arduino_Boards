@@ -10,10 +10,10 @@ This repository contains board definition files for the Arduino-compatible data 
 #### Supported AVR Boards and uses on Northern Widget devices
 
 * **ATMega1284p 8MHz**
-  * [Project Okapi](https://github.com/NorthernWidget-Skunkworks/Project-Okapi): Versatile data logger with built-in solar charge control and modular telemetry
-  * [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay): Extreme-low-power data logger
+  * [Okapi](https://github.com/NorthernWidget-Skunkworks/Project-Okapi): Versatile data logger with built-in solar charge control and modular telemetry
+  * [Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay): Extreme-low-power data logger
 * **ATMega644p 8MHz**
-  * Older variants of [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
+  * Older variants of [Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
 * **ALog BottleLogger v2**
   * THe modern (and likely ultimate) [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
 * **ALog BottleLogger (legacy)**
@@ -59,10 +59,10 @@ Now, when you select the Boards list, you will see a collection of new boards fo
 
 You will then want to change your selection to match the microcontroller that you are using. At the time of writing, this is probably **ATMega1284p 8MHz**, but as a reference:
 * **ATMega1284p 8MHz**
-  * [Project Okapi](https://github.com/NorthernWidget-Skunkworks/Project-Okapi)
-  * Current variants of [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
+  * [Okapi](https://github.com/NorthernWidget-Skunkworks/Project-Okapi)
+  * Current variants of [Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
 * **ATMega644p 8MHz**
-  * Older variants of [Project Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
+  * Older variants of [Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
 * **ALog BottleLogger v2**
   * The modern (and likely ultimate) [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
 * **ALog BottleLogger (legacy)**
