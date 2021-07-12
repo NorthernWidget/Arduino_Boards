@@ -68,7 +68,7 @@ You will then want to change your selection to match the microcontroller that yo
 * **ALog BottleLogger (legacy)**
   * [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger) v2.0.0-beta and prior
 
-![Select the proper board.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_NorthernWidget.png "Now, when you go to Tools > Board, you should see the Northern Widget Boards. Select the proper board/MCU, which at the time of writing is most likely ATMega1284P 8MHz.")
+![Select the proper board.](https://github.com/NorthernWidget/Arduino_Boards/raw/master/README_images/Tools_Boards_NorthernWidget.png "Now, when you go to Tools > Board, you should see the Northern Widget Boards. Select the proper board/MCU, which at the time of writing is most likely ATMega1284p 8MHz.")
 
 <!---**NOTE: If you are using Arduino 1.6.6** and the link isn't working for you, change "https" at the beginning of the link to "http" and try again. We've stopped working to figure out why this is happening in version 1.6.6; update your Arduino IDE!-->
 
