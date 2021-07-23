@@ -83,7 +83,7 @@ Each entry in the boards list is defined in [boards.txt](https://github.com/Nort
 
 * **This will only work under Arduino IDE versions 1.5 and up. As of writing the current version is 1.8.15.**
 * Some boards such as the Pro Micro and the Mega Pro come in more than one form.  For these **you must select the correct processor** in the 'Tools' menu.
-* Information on compiling and programming the bootloaders can be found in the bootloaders directory.
+* Information on compiling and programming the bootloaders can be found in the bootloaders' directory.
 * **Bugs introduced in the Arduino IDE version 1.6.6 through at least 1.6.9 produce errors indicating there is something wrong with these files. This can be resolved by reverting back to 1.6.5-r5. So far all reports seem to indicated that 1.6.10 has also fixed the issues. These intermittent issues are difficult to reliably reproduce.**
 * If you have previously installed a Northern Widget Board package, you may get an error message `Board xxxx is unknown`, if you get this error simply navigate to the Arduino packages folder (using the link in the preferances window is easiest way to find it), then go to `packages` and delete the folder named `NorthernWidget`, then reinstall the board file using the Board Manager
 
