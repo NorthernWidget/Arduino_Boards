@@ -4,7 +4,7 @@ This repository contains board definition files for the Arduino-compatible data 
 
 (This repository and README based gratuitously off of Sparkfun's)
 
-***Note: This will only work under Arduino IDE versions 1.5 and up.***
+***Note: the following instructions will only work for Arduino IDE versions 1.5 and up.***
 </br>*Additional notes at bottom of page*
 
 #### Supported AVR Boards and uses on Northern Widget devices
@@ -19,7 +19,7 @@ This repository contains board definition files for the Arduino-compatible data 
 * **ALog BottleLogger (legacy)**
   * [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger) v2.0.0-beta and prior
 
-Each board will be added as an entry to the Arduino **Tools** > **Board** menu.
+Each board will be added as an entry in the Arduino **Tools** > **Board** menu.
 
 ### Installation Instructions
 
