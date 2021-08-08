@@ -4,7 +4,7 @@ This repository contains board definition files for the Arduino-compatible data 
 
 (This repository and README based gratuitously off of Sparkfun's)
 
-***Note: the following instructions will only work for Arduino IDE versions 1.5 and up.***
+***Note: The following instructions will only work for Arduino IDE versions 1.5 and up.***
 </br>*Additional notes at bottom of page*
 
 #### Supported AVR Boards and uses on Northern Widget devices
