@@ -15,7 +15,7 @@ This repository contains board definition files for the Arduino-compatible data 
 * **ATMega644p 8MHz**
   * Older variants of [Margay](https://github.com/NorthernWidget-Skunkworks/Project-Margay)
 * **ALog BottleLogger v2**
-  * THe modern (and likely ultimate) [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
+  * The modern (and likely ultimate) [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger)
 * **ALog BottleLogger (legacy)**
   * [ALog BottleLogger](https://github.com/NorthernWidget/ALog-BottleLogger) v2.0.0-beta and prior
 
