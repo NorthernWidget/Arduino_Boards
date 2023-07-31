@@ -1,6 +1,6 @@
 # Northern Widget Arduino Boards
 
-This repository contains board definition files for the Arduino-compatible data logger boards developed by A. Wickert and C. Sandell at Northern Widget LLC and the University of Minnesota.
+This repository contains board definition files for the Arduino-compatible data logger boards developed by A. Wickert, B. Schulz, and C. Sandell at Northern Widget LLC and the University of Minnesota.
 
 (This repository and README based gratuitously off of Sparkfun's)
 
