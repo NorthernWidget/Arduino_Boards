@@ -18,6 +18,7 @@
                "archiveFileName":"NorthernWidgetAVR.tar.bz2",
                "architecture": "avr",
                "size": "201511",
+	       "checksum": "016a3d94f59a71fc6f8ac96fca299c94",
                "help":{
                   "online":"https://northernwidget.com/contact/"
                },
