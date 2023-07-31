@@ -17,8 +17,8 @@
                "url":"https://github.com/NorthernWidget/Arduino_Boards/raw/master/NorthernWidgetAVR.tar.bz2",
                "archiveFileName":"NorthernWidgetAVR.tar.bz2",
                "architecture": "avr",
-               "size": "201511",
-	       "checksum": "MD5:016a3d94f59a71fc6f8ac96fca299c94",
+               "size": "192902",
+	       "checksum": "MD5:ac653bda00ec42a54d88014d4da48af0",
                "help":{
                   "online":"https://northernwidget.com/contact/"
                },
